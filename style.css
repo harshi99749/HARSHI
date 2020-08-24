@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+.navbar-brand {
+  font-family: Alata;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navbar .nav {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+
+.navbar-inverse {
+  background-color: #f9ff60;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: black;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffcc00;
+  background-color: black;
+}
+
+/* .dropdown-menu > li > a {
+  color: black;
+  background-color: black;
+} */
+.carousel {
+  margin-top: 50px;
+}
+.carousel .item {
+  height: 600px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 600px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: white;
+  background-color: black;
+  font-family: Alata;
+}
+
+body {
+  background-color: white;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: transparent;
+  margin-block-end: 20px;
+  color: black;
+}
+
+.card-title {
+  font-size: 1.28571429em;
+  line-height: 1.2857em;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.card-text {
+  margin-top: 0.5em;
+  padding: 10px;
+  font-family: "Libre Baskerville", serif;
+}
+.card:hover {
+  background-color: #f9ff60;
+  /* transform: scale(1.2); */
+  /* transition: 1s; */
+  color: black;
+  /* background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);*/
+  box-shadow: -14.142px 14.142px 20px 0px black;
+}
+
+footer {
+  font-family: Alata;
+}
